@@ -178,26 +178,157 @@ module.exports = {
     // http://eslint.org/docs/rules/#stylistic-issues
     // ----------------------------------------------
 
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
+    // 'array-bracket-newline': 'off',
+    'array-bracket-spacing': 'error',
+    'array-element-newline': 'off',
+    'block-spacing': 'error',
+    'brace-style': [
+      'error',
+      'stroustrup'
+    ],
+    'camelcase': 'error',
+    'capitalized-comments': 'error',
+    'comma-dangle': 'error',
+    'comma-spacing': 'error',
+    'comma-style': 'error',
+    'computed-property-spacing': 'error',
+    'consistent-this': 'error',
+    'eol-last': 'error',
+    'func-call-spacing': 'error',
+    'func-name-matching': 'error',
+    // 'func-names': 'off',
+    'func-style': [
+      'error',
+      'declaration', {
+        'allowArrowFunctions': true
+      }
+    ],
+    // 'function-call-argument-newline': 'off',
+    // 'function-paren-newline': 'off',
+    // 'id-denylist': 'off',
+    // 'id-length': 'off',
+    // 'id-match': 'off',
+    'implicit-arrow-linebreak': 'error',
+    'indent': [
+      'error',
+      2
+    ],
+    'jsx-quotes': 'error',
+    'key-spacing': 'error',
+    'keyword-spacing': 'error',
+    // 'line-comment-position': 'off',
+    'linebreak-style': 'error',
+    'lines-around-comment': 'error',
+    'lines-between-class-members': [
+      'error',
+      'always', {
+        'exceptAfterSingleLine': true
+      }
+    ],
+    'max-depth': 'error',
+    'max-len': [
+      'error', {
+        'code': 120
+      }
+    ],
+    // 'max-lines': 'off',
+    'max-lines-per-function': 'error',
+    'max-nested-callbacks': 'error',
+    // 'max-params': 'off',
+    'max-statements': 'error',
+    'max-statements-per-line': 'error',
+    // 'multiline-comment-style': 'off',
+    'multiline-ternary': [
+      'error',
+      'always-multiline'
+    ],
+    'new-cap': 'error',
+    'new-parens': 'error',
+    // 'newline-per-chained-call': 'off',
+    'no-array-constructor': 'error',
+    // 'no-bitwise': 'off',
+    'no-continue': 'error',
+    // 'no-inline-comments': 'off',
+    // 'no-lonely-if': 'off',
+    // 'no-mixed-operators': 'off',
+    // 'no-mixed-spaces-and-tabs': 'off',
+    // 'no-multi-assign': 'off',
+    'no-multiple-empty-lines': 'error',
+    // 'no-negated-condition': 'off',
+    'no-nested-ternary': 'error',
+    'no-new-object': 'error',
+    // 'no-plusplus': 'off',
+    // 'no-restricted-syntax': 'off',
+    'no-tabs': 'error',
+    // 'no-ternary': 'off',
+    'no-trailing-spaces': 'error',
+    // 'no-underscore-dangle': 'off',
+    'no-unneeded-ternary': 'error',
+    'no-whitespace-before-property': 'error',
+    'nonblock-statement-body-position': [
+      'error',
+      'below'
+    ],
+    'object-curly-newline': 'error',
+    'object-curly-spacing': [
+      'error',
+      'always'
+    ],
+    // 'object-property-newline': 'off',
+    // 'one-var': 'off',
+    // 'one-var-declaration-per-line': 'off',
+    'operator-assignment': 'error',
+    'operator-linebreak': [
+      'error',
+      'before'
+    ],
+    'padded-blocks': [
+      'error', {
+        'blocks': 'never',
+        'classes': 'always'
+      }
+    ],
+    'padding-line-between-statements': [
+      'error', {
+        'blankLine': 'always',
+        'prev': '*',
+        'next': 'return'
+      }
+    ],
+    'prefer-exponentiation-operator': 'error',
+    // 'prefer-object-spread': 'off',
+    'quote-props': [
+      'error',
+      'consistent'
+    ],
+    'quotes': [
+      'error',
+      'single'
+    ],
+    'semi': 'error',
+    'semi-spacing': 'error',
+    'semi-style': 'error',
+    // 'sort-keys': 'off',
+    // 'sort-vars': 'off',
+    'space-before-blocks': 'error',
+    'space-before-function-paren': [
+      'error',
+      'never'
+    ],
+    'space-in-parens': 'error',
+    'space-infix-ops': 'error',
+    'space-unary-ops': 'error',
+    'spaced-comment': 'error',
+    'switch-colon-spacing': 'error',
+    'template-tag-spacing': 'error',
+    'unicode-bom': 'error',
+    // 'wrap-regex': 'off',
 
     // ECMAScript 6
     // http://eslint.org/docs/rules/#ecmascript-6
     // ------------------------------------------
 
+    '': 'off', // R
+    '': 'off' // R
   }
 };

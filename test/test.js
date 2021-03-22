@@ -9,7 +9,7 @@ const conf = require('../');
 // Files to lint
 const repoFiles = [
   'index.js',
-  'test/test.js',
+  'test/test.js'
 ];
 
 // Use the rules defined in this repo
@@ -17,7 +17,7 @@ const eslintOpts = {
   rules: conf.rules,
   useEslintrc: false,
   envs: ['node', 'es6'],
-  parserOptions: { ecmaVersion: 2018 },
+  parserOptions: { ecmaVersion: 2018 }
 };
 
 // Runs the linter on the repo files
