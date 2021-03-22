@@ -156,13 +156,14 @@ module.exports = {
     // http://eslint.org/docs/rules/#strict-mode
     // -----------------------------------------
 
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
+    // 'strict': 'off',
 
     // Variables
     // http://eslint.org/docs/rules/#variables
     // ---------------------------------------
+
+    '': 'off', //R
+    '': 'off', //R
 
     // Stylistic Issues
     // http://eslint.org/docs/rules/#stylistic-issues
