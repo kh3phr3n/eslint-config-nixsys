@@ -162,12 +162,38 @@ module.exports = {
     // http://eslint.org/docs/rules/#variables
     // ---------------------------------------
 
-    '': 'off', //R
-    '': 'off', //R
+    'init-declarations': 'error',
+    // 'no-delete-var': 'off',
+    // 'no-label-var': 'off',
+    // 'no-restricted-globals': 'off',
+    'no-shadow': 'error',
+    // 'no-shadow-restricted-names': 'off',
+    // 'no-undef': 'off',
+    'no-undef-init': 'error',
+    'no-undefined': 'error',
+    // 'no-unused-vars': 'off',
+    'no-use-before-define': 'error',
 
     // Stylistic Issues
     // http://eslint.org/docs/rules/#stylistic-issues
     // ----------------------------------------------
+
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
 
     // ECMAScript 6
     // http://eslint.org/docs/rules/#ecmascript-6
