@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-nixsys",
+  "description": "My custom ESLint shareable configuration",
+  "homepage": "https://github.com/kh3phr3n/eslint-config-nixsys#readme",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Rémi Casanova",
+    "email": "kh3phr3n@nixsys.fr"
+  },
+  "keywords": [
+    "code style",
+    "eslint",
+    "lint",
+    "linter",
+    "quality",
+    "style"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kh3phr3n/eslint-config-nixsys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kh3phr3n/eslint-config-nixsys/issues"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}
