@@ -58,13 +58,107 @@ module.exports = {
     // http://eslint.org/docs/rules/#best-practices
     // --------------------------------------------
 
-    '': 'off', //R
-    '': 'off', //R
-    '': 'off', //R
+    'accessor-pairs': 'error',
+    'array-callback-return': 'error',
+    'block-scoped-var': 'error',
+    // 'class-methods-use-this': 'off',
+    'complexity': 'error',
+    'consistent-return': 'error',
+    'curly': 'error',
+    // 'default-case': 'off',
+    'default-case-last': 'error',
+    'default-param-last': 'error',
+    'dot-location': [
+      'error',
+      'property'
+    ],
+    'dot-notation': [
+      'error', {
+        'allowKeywords': false
+      }
+    ],
+    'eqeqeq': 'error',
+    'grouped-accessor-pairs': 'error',
+    'guard-for-in': 'error',
+    'max-classes-per-file': 'error',
+    'no-alert': 'warn',
+    'no-caller': 'error',
+    // 'no-case-declarations': 'off',
+    'no-constructor-return': 'error',
+    'no-div-regex': 'error',
+    'no-else-return': 'error',
+    'no-empty-function': [
+      'error', {
+        'allow': [
+          'constructors'
+        ]
+      }
+    ],
+    // 'no-empty-pattern': 'off',
+    'no-eq-null': 'error',
+    'no-eval': 'error',
+    'no-extend-native': 'error',
+    'no-extra-bind': 'error',
+    // 'no-extra-label': 'off',
+    // 'no-fallthrough': 'off',
+    'no-floating-decimal': 'error',
+    // 'no-global-assign': 'off',
+    'no-implicit-coercion': 'error',
+    // 'no-implicit-globals': 'off',
+    // 'no-implied-eval': 'off',
+    'no-invalid-this': 'error',
+    'no-iterator': 'error',
+    'no-labels': 'error',
+    'no-lone-blocks': 'error',
+    'no-loop-func': 'error',
+    // 'no-magic-numbers': 'off',
+    'no-multi-spaces': 'error',
+    'no-multi-str': 'error',
+    // 'no-new': 'off',
+    // 'no-new-func': 'off',
+    'no-new-wrappers': 'error',
+    'no-nonoctal-decimal-escape': 'error',
+    // 'no-octal': 'off',
+    'no-octal-escape': 'error',
+    'no-param-reassign': 'error',
+    'no-proto': 'error',
+    // 'no-redeclare': 'off',
+    // 'no-restricted-properties': 'off',
+    'no-return-assign': 'error',
+    // 'no-return-await': 'off',
+    'no-script-url': 'error',
+    // 'no-self-assign': 'off',
+    'no-self-compare': 'error',
+    'no-sequences': 'error',
+    'no-throw-literal': 'error',
+    'no-unmodified-loop-condition': 'warn',
+    // 'no-unused-expressions': 'off',
+    // 'no-unused-labels': 'off',
+    'no-useless-call': 'error',
+    // 'no-useless-catch': 'off',
+    'no-useless-concat': 'error',
+    // 'no-useless-escape': 'off',
+    'no-useless-return': 'error',
+    // 'no-void': 'off',
+    // 'no-warning-comments': 'off',
+    // 'no-with': 'off',
+    'prefer-named-capture-group': 'error',
+    'prefer-promise-reject-errors': 'error',
+    'prefer-regex-literals': 'error',
+    // 'radix': 'off',
+    'require-await': 'error',
+    // 'require-unicode-regexp': 'off',
+    'vars-on-top': 'error',
+    // 'wrap-iife': 'off',
+    'yoda': 'error',
 
     // Strict Mode
     // http://eslint.org/docs/rules/#strict-mode
     // -----------------------------------------
+
+    '': 'off', //R
+    '': 'off', //R
+    '': 'off', //R
 
     // Variables
     // http://eslint.org/docs/rules/#variables
