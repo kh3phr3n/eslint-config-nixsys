@@ -138,7 +138,7 @@ module.exports = {
     // 'no-void': 'off',
     // 'no-warning-comments': 'off',
     // 'no-with': 'off',
-    'prefer-named-capture-group': 'error',
+    // 'prefer-named-capture-group': 'off',
     'prefer-promise-reject-errors': 'error',
     'prefer-regex-literals': 'error',
     // 'radix': 'off',
