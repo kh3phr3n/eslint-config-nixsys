@@ -72,11 +72,7 @@ module.exports = {
       'error',
       'property'
     ],
-    'dot-notation': [
-      'error', {
-        'allowKeywords': false
-      }
-    ],
+    'dot-notation': 'error',
     'eqeqeq': 'error',
     'grouped-accessor-pairs': 'error',
     'guard-for-in': 'error',
