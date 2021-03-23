@@ -15,7 +15,6 @@ Once the `eslint-config-nixsys` package is installed, you can use it by specifyi
 ```js
 {
   extends: [
-    'eslint:recommended',
     'nixsys'
   ],
   rules: {

@@ -242,7 +242,11 @@ module.exports = {
       'error',
       'always-multiline'
     ],
-    'new-cap': 'error',
+    'new-cap': [
+      'error', {
+        'capIsNew': false
+      }
+    ],
     'new-parens': 'error',
     // 'newline-per-chained-call': 'off',
     'no-array-constructor': 'error',
