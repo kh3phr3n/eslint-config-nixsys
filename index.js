@@ -328,7 +328,40 @@ module.exports = {
     // http://eslint.org/docs/rules/#ecmascript-6
     // ------------------------------------------
 
-    '': 'off', // R
-    '': 'off' // R
+    'arrow-body-style': 'error',
+    'arrow-parens': [
+      'error',
+      'as-needed'
+    ],
+    'arrow-spacing': 'error',
+    // 'constructor-super': 'off',
+    'generator-star-spacing': 'error',
+    // 'no-class-assign': 'off',
+    // 'no-confusing-arrow': 'off',
+    // 'no-const-assign': 'off',
+    // 'no-dupe-class-members': 'off',
+    'no-duplicate-imports': 'error',
+    // 'no-new-symbol': 'off',
+    // 'no-restricted-exports': 'off',
+    // 'no-restricted-imports': 'off',
+    // 'no-this-before-super': 'off',
+    // 'no-useless-computed-key': 'off',
+    // 'no-useless-constructor': 'off',
+    'no-useless-rename': 'error',
+    'no-var': 'error',
+    // 'object-shorthand': 'off',
+    // 'prefer-arrow-callback': 'off',
+    'prefer-const': 'error',
+    // 'prefer-destructuring': 'off',
+    // 'prefer-numeric-literals': 'off',
+    // 'prefer-rest-params': 'off',
+    // 'prefer-spread': 'off',
+    'prefer-template': 'error',
+    // 'require-yield': 'off',
+    'rest-spread-spacing': 'error',
+    // 'sort-imports': 'off',
+    // 'symbol-description': 'off',
+    'template-curly-spacing': 'error',
+    'yield-star-spacing': 'error'
   }
 };
