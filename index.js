@@ -286,12 +286,7 @@ module.exports = {
       'error',
       'before'
     ],
-    'padded-blocks': [
-      'error', {
-        'blocks': 'never',
-        'classes': 'always'
-      }
-    ],
+    // 'padded-blocks': 'off',
     'padding-line-between-statements': [
       'error', {
         'blankLine': 'always',
