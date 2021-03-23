@@ -1,3 +1,7 @@
+# eslint-config-nixsys
+
+> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) inspired by [eslint-config-google](https://github.com/google/eslint-config-google)
+
 ## Installation
 
 ```
