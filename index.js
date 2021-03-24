@@ -183,7 +183,7 @@ module.exports = {
       'stroustrup'
     ],
     'camelcase': 'error',
-    'capitalized-comments': 'error',
+    // 'capitalized-comments': 'off',
     'comma-dangle': 'error',
     'comma-spacing': 'error',
     'comma-style': 'error',
