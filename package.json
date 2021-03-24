@@ -2,7 +2,7 @@
   "name": "eslint-config-nixsys",
   "description": "My custom ESLint shareable configuration",
   "homepage": "https://github.com/kh3phr3n/eslint-config-nixsys#readme",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "index.js",
   "author": {
