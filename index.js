@@ -158,7 +158,7 @@ module.exports = {
     // http://eslint.org/docs/rules/#variables
     // ---------------------------------------
 
-    'init-declarations': 'error',
+    // 'init-declarations': 'off',
     // 'no-delete-var': 'off',
     // 'no-label-var': 'off',
     // 'no-restricted-globals': 'off',
