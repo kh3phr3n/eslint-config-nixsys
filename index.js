@@ -307,8 +307,11 @@ module.exports = {
     // 'sort-vars': 'off',
     'space-before-blocks': 'error',
     'space-before-function-paren': [
-      'error',
-      'never'
+      'error', {
+        'anonymous': 'never',
+        'named': 'never',
+        'asyncArrow': 'always'
+      }
     ],
     'space-in-parens': 'error',
     'space-infix-ops': 'error',
