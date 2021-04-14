@@ -222,11 +222,7 @@ module.exports = {
       }
     ],
     'max-depth': 'error',
-    'max-len': [
-      'error', {
-        'code': 120
-      }
-    ],
+    // 'max-len': 'off',
     // 'max-lines': 'off',
     // 'max-lines-per-function': 'off',
     'max-nested-callbacks': 'error',
