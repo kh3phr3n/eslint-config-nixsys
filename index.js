@@ -12,7 +12,7 @@ module.exports = {
     // 'for-direction': 'off',
     // 'getter-return': 'off',
     // 'no-async-promise-executor': 'off',
-    'no-await-in-loop': 'error',
+    // 'no-await-in-loop': 'off',
     // 'no-compare-neg-zero': 'off',
     // 'no-cond-assign': 'off',
     'no-console': 'warn',
@@ -50,7 +50,7 @@ module.exports = {
     // 'no-unsafe-negation': 'off',
     'no-unsafe-optional-chaining': 'error',
     'no-useless-backreference': 'error',
-    'require-atomic-updates': 'error',
+    // 'require-atomic-updates': 'off',
     // 'use-isnan': 'off',
     // 'valid-typeof': 'off',
 
