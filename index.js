@@ -142,7 +142,7 @@ module.exports = {
     'prefer-promise-reject-errors': 'error',
     'prefer-regex-literals': 'error',
     // 'radix': 'off',
-    'require-await': 'error',
+    // 'require-await': 'off',
     // 'require-unicode-regexp': 'off',
     'vars-on-top': 'error',
     // 'wrap-iife': 'off',
