@@ -326,7 +326,7 @@ module.exports = {
     // http://eslint.org/docs/rules/#ecmascript-6
     // ------------------------------------------
 
-    'arrow-body-style': 'error',
+    // 'arrow-body-style': 'off',
     'arrow-parens': [
       'error',
       'as-needed'
